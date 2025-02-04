@@ -31,6 +31,7 @@ function Facts() {
         <article>{info}</article>
         
       </section>
+      <img src={bgImage} className={scss.bgImage} alt="" />
       <section className={scss.novost}> 
       <h1>Recent news</h1>
         <p  className={scss.news}>{news}</p>

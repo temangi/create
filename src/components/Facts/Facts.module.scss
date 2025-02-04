@@ -35,6 +35,13 @@
       }
     }
   }
+  .bgImage{
+    position: absolute;
+    transform: rotate(-135deg);
+    top: 30%;
+    right: 70%;
+    z-index: -1;
+  }
   .novost {
     display: flex;
     flex-direction: column;
