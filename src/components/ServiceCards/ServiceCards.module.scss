@@ -1,0 +1,46 @@
+.serviceCards{
+    padding: 100px 150px;
+    
+    article{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            align-items: flex-start;
+            padding: 0 4px 0 7px;
+
+            h1{
+                font-size: 32px;
+                color: #1E212C;
+            }
+
+            span{
+                font-size: 16px;
+                color: #787A80;
+            }
+
+            button{
+                border: 1px solid #FF5A30;
+                padding: 10px 20px;
+                color: #FF5A30;
+                font-size: 15px;
+                font-weight: 600;
+                background: none;
+                cursor: pointer;
+                transition: .4s;
+                &:hover{
+                    color: white;
+                    background: #FF5A30;
+                }
+            }
+        }
+    }
+    .reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 60px;
+      }  
+}
