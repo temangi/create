@@ -1,6 +1,6 @@
 import React from 'react'
 import Main from '../components/Main/Main'
-import back from "../assets/main/n.svg"
+import back from "../assets/main/contacts.svg"
 
 const news = {
     img : back,
