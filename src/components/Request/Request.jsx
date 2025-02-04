@@ -5,29 +5,29 @@ import { arr } from "../../constants/Request";
 
 function Request() {
   let inputs = arr.map((el, index) => (
-    <form action="" key={index} className={scss.inputs}>
+    <div key={index} className={scss.inputs}>
       {" "}
       <label htmlFor="">{el.label}</label>{" "}
       <input
         className={scss.inputReq}
-        type="text" 
+        type="text"
         placeholder={el.placeholder} required
       />
-    </form>
+    </div>
   ));
 
   return (
     <div className={scss.request}>
       <img src={bg} alt="" />
-      <main>
+      <form action="submit">
         <h1>A quick way to discuss details</h1>
         <div> {inputs}</div>
         <label className={scss.mainLabel} htmlFor="">
-          <input type="checkbox" required/>I agree to receive communications from
+          <input type="checkbox" required />I agree to receive communications from
           Createx Construction Bureau.
         </label>
-        <button>Send request</button>
-      </main>
+        <button type="submit" >Send request</button>
+        </form>
     </div>
   );
 }
