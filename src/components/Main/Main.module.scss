@@ -1,0 +1,25 @@
+.main{
+    padding: 50px 150px 15% 150px;
+    color: #424551;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    width: 70%;
+    p{
+        display: flex;
+        gap: 5px;
+        span{
+            color: #9A9CA5;
+        }
+    }
+    h1{
+        color :#1E212C;
+        font-size: 72px;
+        text-transform: uppercase;
+
+    }
+    span{
+        color: #787A80;
+    }
+}
