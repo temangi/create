@@ -1,11 +1,11 @@
 import React from 'react'
 import Main from '../components/Main/Main'
-import back from "../assets/main/news.svg"
+import back from "../assets/main/n.svg"
 
 const news = {
     img : back,
-    title : "Service",
-    desc : "If you are looking for a full-service construction company, look to Createx Construction Bureau. We are doing our best to be a partner for all of your construction needs."
+    title : "News",
+    desc : "Stay tuned with our news, expert tips and articles."
 }
 
 function News() {
