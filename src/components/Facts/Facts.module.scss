@@ -1,0 +1,128 @@
+.facts {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 70px 150px;
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+
+    h1 {
+      font-size: 46px;
+      color: #1e212c;
+    }
+
+    article {
+      display: flex;
+      gap: 40px;
+      text-align: center;
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        img:nth-of-type(1) {
+          width: 80%;
+        }
+        span {
+          font-size: 14px;
+          color: #1e212c;
+        }
+      }
+    }
+  }
+  .novost {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    h1{
+      font-size: 46px;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .news {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 20px;
+
+      .newsCard {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        border-radius: 15px;
+        transition: .3s;
+        &:hover {
+          -webkit-box-shadow: 0px 1px 15px 0px rgba(154, 156, 165, 1);
+          -moz-box-shadow: 0px 1px 15px 0px rgba(154, 156, 165, 1);
+          box-shadow: 0px 1px 15px 0px rgba(154, 156, 165, 1);
+          h1 {
+            color: #ff5a30;
+          }
+        }
+        h1 {
+          font-size: 20px;
+          color: #1e212c;
+          transition: 0.3s;
+          padding-left: 15px;
+        }
+
+        p {
+          color: #787a80;
+          display: flex;
+          align-items: center;
+          padding-left: 15px;
+          gap: 5px;
+        }
+
+        span {
+          color: #424551;
+          padding-left: 15px;
+          font-size: 16px;
+        }
+      }
+      .newsCard:nth-of-type(1) {
+        grid-row: span 2 / span 2;
+        grid-column-start: 1;
+        grid-row-start: 1;
+      }
+
+      .newsCard:nth-of-type(2) {
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+
+      .newsCard:nth-of-type(3) {
+        grid-column-start: 2;
+        grid-row-start: 2;
+      }
+    }
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+
+      h1 {
+        font-size: 28px;
+        color: #1e212c;
+      }
+
+      .btn {
+        color: white;
+        text-decoration: none;
+        background: #ff5a30;
+        padding: 13px 25px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+}
