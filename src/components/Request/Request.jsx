@@ -5,15 +5,15 @@ import { arr } from "../../constants/Request";
 
 function Request() {
   let inputs = arr.map((el, index) => (
-    <div key={index} className={scss.inputs}>
+    <form action="" key={index} className={scss.inputs}>
       {" "}
       <label htmlFor="">{el.label}</label>{" "}
       <input
         className={scss.inputReq}
-        type="text"
-        placeholder={el.placeholder}
+        type="text" 
+        placeholder={el.placeholder} required
       />
-    </div>
+    </form>
   ));
 
   return (
@@ -23,7 +23,7 @@ function Request() {
         <h1>A quick way to discuss details</h1>
         <div> {inputs}</div>
         <label className={scss.mainLabel} htmlFor="">
-          <input type="checkbox" />I agree to receive communications from
+          <input type="checkbox" required/>I agree to receive communications from
           Createx Construction Bureau.
         </label>
         <button>Send request</button>
