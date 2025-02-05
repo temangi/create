@@ -10,7 +10,7 @@ function Header() {
    const navs = headerLinks.map((el,index) => <a key={index} href={el.link}>{el.title}</a>)
 
   return (
-    <div className={`${scss.header}`}>
+    <div className={`${scss.header}`} id='header'>
         <img src={logo} alt="" />
         <nav>{navs}</nav>
         <aside>
