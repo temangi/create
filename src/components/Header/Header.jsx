@@ -1,32 +1,35 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 import scss from './Header.module.scss'
 import { headerLinks } from "../../constants/Header";
 import logo from '../../assets/Header/logo.svg'
 import phone from '../../assets/Header/phone.svg'
 import chat from '../../assets/Header/chat.svg'
+import { useLocation  } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header() {
+    const {pathname} = useLocation()
 
-   const navs = headerLinks.map((el,index) => <a key={index} href={el.link}>{el.title}</a>)
+   const navs = headerLinks.map((el,index) => <Link className={pathname == el.link ? scss.link_active : scss.link_noActive} key={index} to={el.link}>{el.title}</Link>)
 
   return (
     <div className={`${scss.header}`} id='header'>
-        <img src={logo} alt="" />
+        <Link to="/"><img src={logo} alt="" /></Link>
         <nav>{navs}</nav>
         <aside>
             <div>
             <img src={phone} alt="" />
-            <p>
+            <article>
                 <h1>Call us</h1>
                 <span>(405) 555-0128</span>
-            </p>
+            </article>
             </div>
             <div>
             <img src={chat} alt="" />
-            <p>
+            <article>
                 <h1>Talk to us</h1>
                 <span>hello@createx.com</span>
-            </p>
+            </article>
             </div>
         </aside>
     </div>
