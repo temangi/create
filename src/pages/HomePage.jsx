@@ -5,6 +5,7 @@ import Header from '../components/Header/Header'
 import Facts from '../components/Facts/Facts'
 import Request from '../components/Request/Request'
 import ServiceCards from '../components/ServiceCards/ServiceCards'
+import Footer from '../components/Footer/Footer'
 
 
 function HomePage() {
@@ -15,7 +16,7 @@ function HomePage() {
    <Service/>
    <Facts/>
    <Request/>
-   <p>Hello bayana , syimyk</p>
+   <Footer/>
    </>
   )
 }
