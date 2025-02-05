@@ -1,4 +1,5 @@
 import React from 'react'
+import Value from '../components/Value/Value'
 import Service from '../components/Service/Service'
 import Header from '../components/Header/Header'
 import Facts from '../components/Facts/Facts'
@@ -10,13 +11,13 @@ function HomePage() {
   return (
    <>
    <Header/>
+   <Value/>
    <Service/>
    <Facts/>
    <Request/>
-   <ServiceCards/>
    <p>Hello bayana , syimyk</p>
    </>
   )
 }
 
-export default HomePage
+export default HomePage;

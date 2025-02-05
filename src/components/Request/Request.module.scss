@@ -1,9 +1,11 @@
 .request {
-  position: relative;
+    background: url(../../assets/request/backgrnd.svg);
+    display: flex;
+    justify-content: flex-end;
+    padding: 90px 150px;
+    background-size: cover;
 
-  img {
-    width: 100%;
-  }
+ 
 
   label {
     color: #424551;
@@ -11,22 +13,17 @@
   }
 
   form {
-    position: absolute;
-    top: 10%;
-    right: 150px;
-    width: 27%;
+    width: 32%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 15px;
-    padding: 25px 40px;
+    padding: 40px;
     background: white;
     border-radius: 5px;
 
     h1 {
       font-size: 22px;
       text-align: center;
-      padding: 15px 0;
     }
 
     div {

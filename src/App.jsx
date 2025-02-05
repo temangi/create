@@ -24,7 +24,6 @@ function App() {
         <Route path='/contacts' element={<Contacts/>} />
       </Routes>
     </BrowserRouter>
-  
    </>
   )
 }
