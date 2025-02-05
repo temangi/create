@@ -1,7 +1,6 @@
 .ratings {
-  padding: 50px 150px;
+  padding: 100px 150px;
   background: #f4f5f6;
-  margin-top: 50px;
   h1 {
     color: #1e212c;
     font-size: 42px;
@@ -11,7 +10,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 30px !important ;
-    padding: 70px 0 !important;
+    padding: 70px 0 0 0!important;
     width: 47% !important;
 
     img {
