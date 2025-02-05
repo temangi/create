@@ -4,6 +4,7 @@ import Service from '../components/Service/Service'
 import Header from '../components/Header/Header'
 import Facts from '../components/Facts/Facts'
 import Request from '../components/Request/Request'
+import ServiceCards from '../components/ServiceCards/ServiceCards'
 import Footer from '../components/Footer/Footer'
 
 
@@ -14,7 +15,7 @@ function HomePage() {
    <Value/>
    <Service/>
    <Facts/>
-   {/* <Request/> */}
+   <Request/>
    <Footer/>
    </>
   )

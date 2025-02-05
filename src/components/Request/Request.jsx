@@ -18,7 +18,6 @@ function Request() {
 
   return (
     <div className={scss.request}>
-      <img src={bg} alt="" />
       <form action="submit">
         <h1>A quick way to discuss details</h1>
         <div> {inputs}</div>
