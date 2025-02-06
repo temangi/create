@@ -4,6 +4,7 @@ import { people } from "../../constants/Ratings";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Company from "../Company/Company";
 
 function Ratings() {
   const settings = {
@@ -19,6 +20,7 @@ function Ratings() {
 
   return (
     <div className={scss.ratings}>
+      <Company title={"Supported by 12+ partners"}/>
       <h1>What our clients are saying</h1>
       <Slider {...settings}>
         {people.map((el, index) => (

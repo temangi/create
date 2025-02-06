@@ -16,6 +16,7 @@ function Service() {
    <Main {...news} />
    <ServiceCards/>
    <Request/>
+   <Footer/>
    </>
   )
 }
