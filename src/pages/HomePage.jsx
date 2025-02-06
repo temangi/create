@@ -7,6 +7,7 @@ import Request from '../components/Request/Request'
 import MainSlider from '../components/MainSlider/MainSlider'
 import ServiceCards from '../components/ServiceCards/ServiceCards'
 import Footer from '../components/Footer/Footer'
+import Projects from '../components/Projects/Projects'
 import Ratings from '../components/Ratings/Ratings'
 
 
@@ -17,6 +18,7 @@ function HomePage() {
    <MainSlider/>
    <Value/>
    <Service/>
+   <Projects/>
    <Ratings/>
    <Facts/>
    <Request/>
