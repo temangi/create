@@ -1,5 +1,6 @@
 import Main from '../components/Main/Main'
 import back from "../assets/main/work.svg"
+import Imgs from '../components/imgs/imgs'
 
 const news = {
     img : back,
@@ -11,6 +12,7 @@ function Work() {
   return (
    <>
    <Main {...news} />
+    <Imgs title={"Our clients"}/>
    </>
   )
 }
