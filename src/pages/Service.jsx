@@ -12,6 +12,7 @@ function Service() {
   return (
    <>
    <Main {...news} />
+   
    </>
   )
 }
