@@ -1,0 +1,122 @@
+.footer {
+  padding: 50px 150px;
+  background-color: #1e212c;
+  header {
+    padding: 50px 0px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      div {
+        display: flex;
+        gap: 50px;
+      }
+      span {
+        color: #787a80;
+        font-size: 12px;
+      }
+    }
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    div {
+      button {
+        background-color: #ff5a30;
+        color: white;
+        font-weight: 600;
+        border: none;
+        width: 25%;
+        height: 40px;
+        border-radius: 0px 5px 5px 0px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+      }
+      button:hover {
+        transform: scale(1.05);
+      }
+      button:active {
+        transform: translateY(-1px);
+        transition: transform 0.1s ease;
+      }
+      input {
+        width: 70%;
+        height: 40px;
+        border-radius: 5px 0px 0px 5px;
+        border: none;
+        padding-left: 10px;
+        background-color: #3e4354;
+      }
+    }
+    h1 {
+      color: white;
+    }
+    p {
+      color: #787a80;
+      font-size: 12px;
+    }
+  }
+  main {
+    padding-bottom: 50px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    aside {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      h1 {
+        color: white;
+        font-size: 15px;
+      }
+      p {
+        color: #787a80;
+        font-size: 13px;
+        span {
+          color: white;
+          font-size: 13px;
+        }
+      }
+    }
+    article {
+      padding-left: 21px;
+      gap: 15px;
+      h1{
+        font-size: 15px;
+      }
+    }
+  }
+  footer{
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p{
+      color: white;
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+    }
+    .up{
+      display: flex;
+      gap: 20px;
+      align-items: flex-end;
+      text-decoration: none;
+      span{
+        color: white;
+      }
+      button{
+        background-color: #ff5a30;
+        width: 40px;
+        height: 6vh; 
+        border: none;   
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+}

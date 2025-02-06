@@ -1,0 +1,41 @@
+.ratings {
+  padding: 100px 150px;
+  background: #f4f5f6;
+  h1 {
+    color: #1e212c;
+    font-size: 42px;
+  }
+  .eachRating {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px !important ;
+    padding: 70px 0 0 0!important;
+    width: 47% !important;
+
+    img {
+      width: 13%;
+      border-radius: 50px;
+    }
+
+    p {
+      color: #424551;
+      font-size: 16px;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      h1 {
+        font-size: 16px;
+        color: #1e212c;
+      }
+
+      span {
+        color: #787a80;
+        font-size: 14px;
+      }
+    }
+  }
+}

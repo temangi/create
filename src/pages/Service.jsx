@@ -1,6 +1,8 @@
 import React from 'react'
 import Main from '../components/Main/Main'
 import back from "../assets/main/news.svg"
+import ServiceCards from '../components/ServiceCards/ServiceCards'
+import Request from '../components/Request/Request'
 
 const news = {
     img : back,
@@ -12,7 +14,8 @@ function Service() {
   return (
    <>
    <Main {...news} />
-   
+   <ServiceCards/>
+   <Request/>
    </>
   )
 }

@@ -13,7 +13,7 @@ function Header() {
    const navs = headerLinks.map((el,index) => <Link className={pathname == el.link ? scss.link_active : scss.link_noActive} key={index} to={el.link}>{el.title}</Link>)
 
   return (
-    <div className={`${scss.header}`}>
+    <div className={`${scss.header}`} id='header'>
         <Link to="/"><img src={logo} alt="" /></Link>
         <nav>{navs}</nav>
         <aside>
