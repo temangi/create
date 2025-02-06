@@ -6,6 +6,7 @@ import Facts from '../components/Facts/Facts'
 import Request from '../components/Request/Request'
 import ServiceCards from '../components/ServiceCards/ServiceCards'
 import Footer from '../components/Footer/Footer'
+import Ratings from '../components/Ratings/Ratings'
 
 
 function HomePage() {
@@ -14,6 +15,7 @@ function HomePage() {
    <Header/>
    <Value/>
    <Service/>
+   <Ratings/>
    <Facts/>
    <Request/>
    <Footer/>
