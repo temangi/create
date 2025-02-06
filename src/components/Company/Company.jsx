@@ -9,7 +9,7 @@ import sunset from "../../assets/sunset.svg"
 
 
 
-function Imgs({title}) {
+function Company({title}) {
   return (
     <section className={scss.imgs}>
       <h1>{title}</h1>
@@ -25,4 +25,4 @@ function Imgs({title}) {
   )
 }
 
-export default Imgs
+export default Company  

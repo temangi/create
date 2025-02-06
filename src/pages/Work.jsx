@@ -1,6 +1,6 @@
 import Main from '../components/Main/Main'
 import back from "../assets/main/work.svg"
-import Imgs from '../components/imgs/imgs'
+import Company from '../components/Company/Company'
 
 const news = {
     img : back,
@@ -10,9 +10,9 @@ const news = {
 
 function Work() {
   return (
-   <>
+   <> 
    <Main {...news} />
-    <Imgs title={"Our clients"}/>
+    <Company title={"Our clients"}/>
    </>
   )
 }
