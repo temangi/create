@@ -1,0 +1,40 @@
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 150px;
+    right: 150px;
+    gap: 20px;
+    top: 65%;
+    div{
+        border-radius: 4px;
+        background: #9A9CA50A;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 50px;
+        width: 300px;
+        gap: 30px;
+        transition: .7s;
+        text-align: center;
+        cursor: pointer;
+        img{
+            filter: brightness(0) invert(0);
+        }
+        p{
+            color: #9A9CA5;
+            font-weight: 600;
+            font-size: 18px;
+            
+        }
+        &:hover{
+            background: #FF5A30;
+            img{
+                filter: brightness(0) invert(1);
+            }
+            p{
+                color: #FFFFFF;
+            }
+        }
+    }
+}

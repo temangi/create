@@ -1,5 +1,6 @@
 import Main from '../components/Main/Main'
 import back from "../assets/main/work.svg"
+import Portfolio from '../components/Portfolio/Portfolio'
 import Company from '../components/Company/Company'
 
 const news = {
@@ -12,6 +13,7 @@ function Work() {
   return (
    <> 
    <Main {...news} />
+   <Portfolio/>
     <Company title={"Our clients"}/>
    </>
   )
