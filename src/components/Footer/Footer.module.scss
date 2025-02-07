@@ -17,6 +17,7 @@
       span {
         color: #787a80;
         font-size: 12px;
+      
       }
     }
   }
@@ -50,6 +51,8 @@
         border: none;
         padding-left: 10px;
         background-color: #3e4354;
+        outline: none;
+        color: #787a80;
       }
     }
     h1 {
@@ -58,6 +61,7 @@
     p {
       color: #787a80;
       font-size: 12px;
+      cursor: pointer;
     }
   }
   main {
@@ -76,6 +80,7 @@
       p {
         color: #787a80;
         font-size: 13px;
+        cursor: pointer;
         span {
           color: white;
           font-size: 13px;
