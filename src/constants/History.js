@@ -1,4 +1,10 @@
 import HistoryImg from '../assets/History/historyImg.svg'
+import f from "../assets/mainSlider/1.jpg"
+import s from "../assets/mainSlider/2.png"
+import t from "../assets/mainSlider/3.png"
+import fo from "../assets/mainSlider/4.jpg"
+import fi from "../assets/mainSlider/5.jpg"
+import si from "../assets/mainSlider/6.png"
 
 export const arr = [
   "Present",
@@ -14,39 +20,39 @@ export const arr = [
 
 export const slides = [
   {
-    img: HistoryImg,
+    img: f,
     text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
   },
   {
-    img: HistoryImg,
+    img: s,
     text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
   },
   {
-    img: HistoryImg,
+    img: t,
     text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
   },
   {
-    img: HistoryImg,
+    img: fo,
     text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
   },
   {
-    img: HistoryImg,
+    img: fi,
     text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
   },
   {
-    img: HistoryImg,
+    img: si,
     text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
   },
   {
-    img: HistoryImg,
+    img: f,
     text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
   },
   {
-    img: HistoryImg,
+    img: s,
     text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
   },
   {
-    img: HistoryImg,
+    img: t,
     text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
   }
 ];

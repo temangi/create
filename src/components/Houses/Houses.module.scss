@@ -71,10 +71,25 @@
             font-weight: 500;
             color: #424551;
             cursor: pointer;
+            transition: .5s;
         }
-        p:hover{
-          color: #ff5a30;
+        &:hover{
+          img{
+            animation: rotate 3s linear infinite; 
+          }
+          p:hover{
+            color: #ff5a30;
+          }
         }
+    }
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
     }
   }
   
