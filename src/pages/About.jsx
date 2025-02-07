@@ -1,6 +1,7 @@
 import Main from '../components/Main/Main'
 import back from "../assets/main/about.svg"
 import History from '../components/History/History'
+import Footer from '../components/Footer/Footer'
 
 const news = {
     img : back,
@@ -13,6 +14,7 @@ function About() {
    <>
    <Main {...news} />
    <History/>
+   <Footer/>
    </>
   )
 }
