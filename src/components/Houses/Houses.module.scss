@@ -1,0 +1,80 @@
+.houses {
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  
+    main {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+  
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: flex-end;
+        border-radius: 5px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 450px;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  
+        article {
+          background: white;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+          padding: 20px;
+  
+          button {
+            background-color: white;
+            color: #ff5a30;
+            width: 50%;
+            height: 40px;
+            border-radius: 5px;
+            font-size: 15px;
+            border: #ff5a30 1px solid;
+            font-weight: 500;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+          }
+  
+          p {
+            color: #787a80;
+          }
+        }
+      }
+  
+      div:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  
+        article button {
+          display: block;
+          opacity: 1;
+          cursor: pointer;
+        }
+      }
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        p{
+            font-size: 20px;
+            font-weight: 500;
+            color: #424551;
+            cursor: pointer;
+        }
+        p:hover{
+          color: #ff5a30;
+        }
+    }
+  }
+  
