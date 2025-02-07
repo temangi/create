@@ -5,7 +5,7 @@ import scss from "./style.module.scss";
 import { Link } from "react-router-dom";
 
 
-const imgs = [scss.firstCard , scss.secondCard , scss.thirdCard]
+const imgs = [scss.firstCard , scss.secondCard , scss.thirdCard,scss.fourthCard,scss.fiveCard,scss.sixCard]
 
 function MainSlider() {
   const mainImgs = imgs.map((el, index) => (
@@ -31,12 +31,16 @@ function MainSlider() {
 
   const settings = {
     infinite: true,
-    speed: 500,
+    speed: 3000,        
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,      
-    autoplaySpeed: 5000,
-  };
+    autoplay: true,
+    autoplaySpeed: 3000,
+    fade: true,        
+    pauseOnHover: false
+};
+
+
   return (
     <section className={scss.mainSlider}>
       <Slider {...settings}>{mainImgs}</Slider>

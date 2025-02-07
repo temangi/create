@@ -1,17 +1,11 @@
 .mainSlider{
     width: 100%;
     height: auto;
-    .firstCard{
-        background-image: url(../../assets/mainSlider/1.svg);
-    }
-   .secondCard{
-        background-image: url(../../assets/mainSlider/3.png);
-    }
-   .thirdCard{
-        background-image: url(../../assets/mainSlider/3.png);
-       
-    }
-    .firstCard,.secondCard,.thirdCard{
+    .slick-slide {
+        transition: transform 3s ease-in-out; 
+        animation: zoom-in 3s ease-in-out;
+      }      
+    .firstCard,.secondCard,.thirdCard,.fourthCard,.fiveCard,.sixCard{
         width: 100%;
         padding: 10% 150px;
         display: flex !important;
@@ -45,6 +39,31 @@
             }
         }
     }
+    .firstCard{
+        background-image: url(../../assets/mainSlider/1.jpg);
+    }
+   .secondCard{
+        background-image: url(../../assets/mainSlider/2.png);
+        color: black;
+        main{
+            .sliderBtn{
+                color: black;
+            }
+        }
+    }
+   .thirdCard{
+        background-image: url(../../assets/mainSlider/3.png);
+       
+    }
+    .fourthCard{
+        background-image: url(../../assets/mainSlider/4.jpg);
+    }
+    .fiveCard{
+        background-image: url(../../assets/mainSlider/5.jpg);
+    }
+    .sixCard{
+        background-image: url(../../assets/mainSlider/6.png);
+    }
     div{
         background-position: center;
         background-size: cover;
@@ -53,3 +72,14 @@
     }
 
 }
+
+@keyframes zoom-in {
+    from {
+      transform: scale(0.8); 
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);    
+      opacity: 1;
+    }
+  }
