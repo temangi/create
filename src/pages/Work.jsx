@@ -1,6 +1,7 @@
 import Main from '../components/Main/Main'
 import back from "../assets/main/work.svg"
 import Company from '../components/Company/Company'
+import Houses from "../components/Houses/Houses"
 
 const news = {
     img : back,
