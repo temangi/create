@@ -1,6 +1,7 @@
 import Main from '../components/Main/Main'
 import back from "../assets/main/work.svg"
 import Company from '../components/Company/Company'
+import Houses from "../components/Houses/Houses"
 import Footer from '../components/Footer/Footer'
 
 const news = {
@@ -13,6 +14,7 @@ function Work() {
   return (
    <> 
    <Main {...news} />
+   <Houses/> 
     <div className="company">
     <Company title={"Our clients"}/>
     </div>

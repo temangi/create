@@ -9,6 +9,7 @@ import ServiceCards from '../components/ServiceCards/ServiceCards'
 import Footer from '../components/Footer/Footer'
 import Projects from '../components/Projects/Projects'
 import Ratings from '../components/Ratings/Ratings'
+import Houses from '../components/Houses/Houses'
 
 
 function HomePage() {
