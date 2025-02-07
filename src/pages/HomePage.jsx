@@ -24,7 +24,6 @@ function HomePage() {
    <Facts/>
    <Request/>
    <Footer/>
-   <Houses/>
    </>
   )
 }

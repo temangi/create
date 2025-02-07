@@ -12,6 +12,7 @@ function Work() {
   return (
    <> 
    <Main {...news} />
+   <Houses/> 
     <Company title={"Our clients"}/>
    </>
   )
