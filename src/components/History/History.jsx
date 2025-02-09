@@ -16,12 +16,13 @@ function History() {
 
   const settings = {
     infinite: true,
-    speed: 500,
+    speed: 6000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 1000,
+    autoplay: true,
+    autoplaySpeed: 12000,
     arrows: false,
+    pauseOnHover: false,
     adaptiveHeight: false,
     beforeChange: (current, next) => setActive(next),
   };
@@ -32,6 +33,7 @@ function History() {
       <p>{el.text}</p>
     </main>
   ));
+  
 
   const texts = arr.map((el, index) => (
     <div
