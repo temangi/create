@@ -13,3 +13,7 @@ body {
 .company{
   padding: 100px 150px 50px 150px;
 }
+
+html, body {
+  height: 100%;
+}
