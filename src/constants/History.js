@@ -18,41 +18,43 @@ export const arr = [
   "June 2000",
 ];
 
+
 export const slides = [
   {
-    img: f,
-    text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
+    img : f,
+    text: "Даже если ты оказался в самой сложной ситуации, даже если кажется, что победа невозможна – настоящая битва идёт до тех пор, пока ты сам не решишь опустить меч",
   },
   {
-    img: s,
-    text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
+    img : s,
+    text: "Время не стоит на месте, одно поколение сменяет другое, но память, любовь и сила духа передаются дальше, как листва, опадающая и снова распускающаяся весной.",
   },
   {
-    img: t,
-    text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
+    img : t,
+    text : " В жизни неизбежны трудности, поражения и моменты, когда кажется, что всё кончено. Но настоящая неудача – это не само поражение, а отказ продолжать двигаться вперёд. Если ты поднимаешься после падения, то ты всё ещё в игре."
   },
   {
-    img: fo,
-    text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
+    img : fo,
+    text : "Многие считают, что страх – это слабость, но на самом деле страх – это инструмент. Он показывает нам, где наши границы, и даёт возможность стать сильнее, если мы готовы смотреть ему в лицо и преодолевать его."
   },
   {
-    img: fi,
-    text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
+    img : fi,
+    text : " Часто мы сами ставим себе границы, говоря <я не смогу или> <это невозможно>. Но правда в том, что пока ты не попробуешь, ты не узнаешь своих истинных возможностей."
   },
   {
-    img: si,
-    text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
+    img : si,   
+    text : "Когда умирает человек? Когда его сердце перестаёт биться? Нет. Когда его стреляют из пистолета? Нет. Когда он болен неизлечимой болезнью? Тоже нет! Человек умирает… когда его забывают!"
   },
   {
-    img: f,
-    text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
+    img : f,
+    text: "Даже если ты оказался в самой сложной ситуации, даже если кажется, что победа невозможна – настоящая битва идёт до тех пор, пока ты сам не решишь опустить меч",
   },
   {
-    img: s,
-    text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
+    img : s,
+    text: "Время не стоит на месте, одно поколение сменяет другое, но память, любовь и сила духа передаются дальше, как листва, опадающая и снова распускающаяся весной.",
   },
   {
-    img: t,
-    text: "Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus.  Eu nec vitae, ",
-  }
+    img : t,
+    text : " В жизни неизбежны трудности, поражения и моменты, когда кажется, что всё кончено. Но настоящая неудача – это не само поражение, а отказ продолжать двигаться вперёд. Если ты поднимаешься после падения, то ты всё ещё в игре."
+  },
 ];
+

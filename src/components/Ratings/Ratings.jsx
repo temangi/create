@@ -9,11 +9,11 @@ import Company from "../Company/Company";
 function Ratings() {
   const settings = {
     infinite: true,
-    speed: 500,
+    speed: 5000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 5000,
     arrows: false,
     adaptiveHeight: true,
   };
