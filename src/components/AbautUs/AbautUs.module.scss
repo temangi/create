@@ -1,0 +1,68 @@
+.ab{
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    .abautUs{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 50px;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            text-align: center;
+            img{
+                width: 50px;
+            }
+            p{
+                display: flex; 
+                font-size: 30px;
+                font-weight: 800;
+                color: #FF5A30;
+                align-items: center;
+            }
+            span{
+                font-weight: 10px;
+                color: #1E212C;
+            }
+        }
+    }
+    .abaut{
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        padding-top: 100px;
+        .lisa{
+            width: 45%;
+            height: 70vh;
+        }
+        article{
+            box-shadow: 0px 4px 8px rgba(30, 33, 44, 0.5);
+            padding:50px 100px;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            right: 0;
+            top: 0;
+            width: 50%;
+            p{
+              text-align: start;
+            }
+            .abautleft{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: space-between;
+                img{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100px;
+                    color: #FF5A30;
+                }
+            }
+        }
+    }
+}

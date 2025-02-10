@@ -1,5 +1,6 @@
 import Main from '../components/Main/Main'
 import back from "../assets/main/about.svg"
+import AbautUs from '../components/AbautUs/AbautUs'
 
 const news = {
     img : back,
@@ -11,6 +12,7 @@ function About() {
   return (
    <>
    <Main {...news} />
+   <AbautUs/>
    </>
   )
 }
