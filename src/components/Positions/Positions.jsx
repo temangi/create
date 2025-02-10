@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import scss from "./Positions.module.scss";
 import { positionsCards } from "../../constants/Positions";
 import timeImg from "../../assets/positions/time.svg";
@@ -11,6 +11,16 @@ function Positions() {
 
   const [open, setOpen] = useState(false)
   const [openCv,setOpenCv] = useState(false)
+
+  useEffect(()=>{
+    if(open || openCv){
+      document.body.style.height = "100vh"
+      document.body.style.overflow = "hidden"
+    }else{
+      document.body.style.height = "auto"
+      document.body.style.overflow = "auto"
+    }
+  },[open, openCv])
 
   const toggleOpenSubs = () =>{
     setOpen(!open) 
