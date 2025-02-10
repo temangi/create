@@ -27,6 +27,7 @@ export const data = [
 ];
 
 export const locations = [
+  "Bishkek",
   "Jalal-Abad",
   "Chui",
   "Talas",

@@ -11,8 +11,10 @@ function CvForm({ setOpenCv }) {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    phone: "",
     location: "",
     file: null,
+
   });
 
   const handleChange = (e) => {
@@ -31,10 +33,9 @@ function CvForm({ setOpenCv }) {
     e.preventDefault();
 
     const templateParams = {
-      name: formData.name,
-      email: formData.email,
-      location: formData.location,
-      file: fileName,
+      from_name: formData.name, 
+      to_name: "Bayana", 
+      message: `Email: ${formData.email}\nLocation: ${formData.location}\nPhone: ${formData.phone}\nAttached File: ${fileName || "No file"}`,
     };
 
     emailjs
