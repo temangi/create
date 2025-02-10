@@ -19,15 +19,33 @@ function Footer() {
   const abt2 = [
     {
       title: "WHO WE ARE",
-      nm1: " About Us",
-      nm2: " Available Positions",
-      nm3: " Contacts",
+      nm1: {
+        title : " About Us",
+        link : "/about"
+      },
+      nm2: {
+        title : " Available Positions",
+        link : "/positions"
+      },
+      nm3: {
+        title : " Contacts",
+        link : "/contacts"
+      }
     },
     {
       title: "OUR EXPERIENCE",
-      nm1: " Services",
-      nm2: " Work",
-      nm3: " News",
+      nm1: {
+        title : " Services",
+        link : "/service"
+      },
+      nm2: {
+        title : " Work",
+        link : "/work"
+      },
+      nm3: {
+        title :  " News",
+        link : "/news"
+      }
     },
   ];
 
@@ -49,12 +67,12 @@ function Footer() {
     </aside>
   ));
 
-  const dates2 = abt2.map((el, index) => (
+  const dates2 = abt2.map(({title , nm1 , nm2 , nm3}, index) => (
     <article key={index}>
-      <h1>{el.title}</h1>
-      <p>{el.nm1}</p>
-      <p>{el.nm2}</p>
-      <p>{el.nm3}</p>
+      <h1>{title}</h1>
+      <Link className={scss.footerLink} to={nm1.link} >{nm1.title}</Link>
+      <Link className={scss.footerLink} to={nm2.link} >{nm2.title}</Link>
+      <Link className={scss.footerLink} to={nm3.link} >{nm3.title}</Link>
     </article>
   ));
 

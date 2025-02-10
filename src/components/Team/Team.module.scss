@@ -1,0 +1,85 @@
+.team {
+  padding: 50px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 30px;
+    .eachCard {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .main {
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 48vh;
+        width: 100%;
+        justify-content: end;
+        &:hover {
+          div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 25px 0;
+            background: #ff59307a;
+            img {
+              cursor: pointer;
+            }
+          }
+        }
+
+        div {
+          display: none;
+        }
+      }
+      article {
+        display: flex;
+        flex-direction: column;
+        h1 {
+          font-size: 20px;
+          color: #424551;
+        }
+        span {
+          color: #787a80;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    h1 {
+      color: #424551;
+      font-size: 46px;
+    }
+    span {
+      color: #787a80;
+      font-size: 18px;
+    }
+  }
+  p {
+    display: flex;
+    color: #424551;
+    gap: 5px;
+    justify-content: center;
+    padding: 40px;
+    font-size: 18px;
+    span {
+      color: #ff5a30;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

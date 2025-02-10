@@ -1,11 +1,13 @@
 .main{
-    padding: 50px 150px 15% 150px;
+    padding: 15% 150px;
     color: #424551;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 50px;
     width: 70%;
+    overflow: visible;
+    position: static;
     p{
         display: flex;
         gap: 5px;
