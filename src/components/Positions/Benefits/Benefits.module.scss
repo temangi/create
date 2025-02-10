@@ -1,0 +1,44 @@
+.benefits {
+  padding: 50px 150px 150px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  h1 {
+    color: #1e212c;
+    font-size: 46px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #787a80;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    .benefitCard {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      width: 25%;
+      text-align: center;
+      h1 {
+        font-size: 20px;
+        color: #1e212c;
+      }
+      p {
+        color: #787a80;
+        font-size: 16px;
+      }
+      &:nth-of-type(2) {
+        border-left: 1px solid #c4c5c58e;
+        border-right: 1px solid #c4c5c58e;
+        width: 35%;
+        padding: 0 40px;
+      }
+    }
+  }
+}
