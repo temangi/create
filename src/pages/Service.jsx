@@ -3,6 +3,7 @@ import Main from '../components/Main/Main'
 import back from "../assets/main/news.svg"
 import ServiceCards from '../components/ServiceCards/ServiceCards'
 import Request from '../components/Request/Request'
+import Footer from '../components/Footer/Footer'
 
 const news = {
     img : back,

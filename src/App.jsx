@@ -9,11 +9,14 @@ import './App.css'
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Header from './components/Header/Header'
 import About2 from './pages/About2'
+import ScrollToTop from './ScrollTop'
+
 function App() {
 
   return (
    <>
     <BrowserRouter>
+    <ScrollToTop />
       <Routes>
         <Route path='/' element={<HomePage/>} />
         <Route path='/about' element={<About/>} />
