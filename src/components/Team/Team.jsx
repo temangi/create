@@ -4,6 +4,7 @@ import linkedIn from "../../assets/Team/Linked-In.svg";
 import facebook from "../../assets/Team/Facebook.svg";
 import twitter from "../../assets/Team/Twitter.svg";
 import { teamCard, socials } from "../../constants/Team";
+import { Link } from "react-router-dom";
 
 function Team() {
   let socialpg = socials.map((el, index) => <img key={index} src={el} />);
@@ -28,8 +29,8 @@ function Team() {
       <section className={scss.cards}>{cards}</section>
       <p>
         Become a part of the best team in the construction market of the USA.{" "}
-        <span>Available Positions</span>
-      </p>
+        <Link className={scss.available} to="/about2"> Available Positions</Link>
+        </p>
     </div>
   );
 }
