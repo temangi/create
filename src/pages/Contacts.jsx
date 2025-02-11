@@ -2,6 +2,8 @@ import React from 'react'
 import Main from '../components/Main/Main'
 import back from "../assets/main/contacts.svg"
 import Footer from '../components/Footer/Footer'
+import Contact from '../components/Contact/Contact'
+
 
 const news = {
     img : back,
@@ -13,6 +15,7 @@ function Contacts() {
   return (
    <>
    <Main {...news} />
+   <Contact/>
    <Footer/>
    </>
   )

@@ -1,0 +1,259 @@
+.contact {
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 100px 150px;
+    article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+      h1 {
+        font-size: 35px;
+      }
+      p {
+        color: #787a80;
+      }
+    }
+    main {
+      display: flex;
+      gap: 100px;
+      img {
+        width: 39%;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .datas {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: 75px 75px 75px;
+          gap: 10px 25px;
+          section {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            span {
+              font-size: 13px;
+            }
+            input {
+              font-size: 12px;
+              width: 230px;
+              height: 40px;
+              background-color: #f4f5f6;
+              border-radius: 3px;
+              border: #d7dadd 1.5px solid;
+              padding-left: 10px;
+              outline: none;
+            }
+          }
+          nav {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            p {
+              font-size: 13px;
+            }
+            .methods {
+              display: flex;
+              gap: 15px;
+              span {
+                display: flex;
+                gap: 10px;
+                font-size: 13px;
+                cursor: default;
+                img {
+                  width: 13px;
+                }
+              }
+            }
+          }
+        }
+
+        .textarea {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          width: 100%;
+          p {
+            font-size: 13px;
+          }
+          textarea {
+            width: 100%;
+            height: 100px;
+            border-radius: 3px;
+            border: #d7dadd 1.5px solid;
+            background-color: #f4f5f6;
+            outline: none;
+            padding: 13px;
+            resize: none;
+          }
+        }
+        .sendRequest {
+          padding-top: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          nav {
+            display: flex;
+            gap: 10px;
+            .active{
+              padding: 3px;
+              border-radius: 2px;
+              background-color: #ff5a30;
+              width: 5%;
+              height: 13px;
+            }
+            .noActive{
+              padding: 3px;
+              border-radius: 2px;
+              background: white;
+              border: 1px solid black;
+              width: 5%;
+              height: 13px;
+            }
+            p {
+              font-size: 13px;
+            }
+          }
+          button {
+            padding: 10px 25px;
+            background: #ff5a30;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    padding: 70px 150px;
+    background-color: #f4f5f6;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+      h1 {
+        font-size: 35px;
+      }
+      p {
+        color: #787a80;
+      }
+    }
+    main {
+      display: flex;
+      gap: 150px;
+      justify-content: space-between;
+      section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+
+        &:not(:last-child)::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: -50px;
+          width: 0.5px;
+          height: 100%;
+          background: linear-gradient(
+            to bottom,
+            transparent,
+            #b0b0b0,
+            transparent
+          );
+        }
+
+        h1 {
+          font-size: 22px;
+        }
+        .contactMe {
+          display: flex;
+          flex-direction: column;
+          gap: 25px;
+          p {
+            font-size: 13px;
+          }
+          nav,
+          div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            a {
+              color: #ff5a30;
+              font-size: 13px;
+            }
+          }
+          div {
+            aside {
+              display: flex;
+              gap: 5px;
+              font-size: 13px;
+              p {
+                color: #787a80;
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .findUs {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      gap: 40px;
+      h1 {
+        font-size: 35px;
+      }
+      section {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .facebook,.youtube,.whatsapp,.twitter,.messanger{
+         path{
+          transition: fill .3s ease-in-out;
+         }
+        }
+      }
+     
+      .facebook:hover {
+       path{
+        fill : blue ;
+       }
+      }
+      .messanger:hover {
+        path{
+         fill : black ;
+        }
+       }
+       .twitter:hover {
+        path{
+         fill : lightblue ;
+        }
+       }
+      .youtube:hover {
+        path{
+         fill : red ;
+        }
+       }
+      .whatsapp:hover{
+       path{
+        fill: lightgreen;
+       }
+      }
+    }
+  }
+}
