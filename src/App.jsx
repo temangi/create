@@ -7,6 +7,8 @@ import ServiceSecond from './pages/Service.2'
 import News from './pages/News'
 import './App.css'
 import {BrowserRouter,Routes,Route} from "react-router-dom"
+import Header from './components/Header/Header'
+import About2 from './pages/About2'
 import ScrollToTop from './ScrollTop'
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
         <Route path='/news' element={<News/>} />
         <Route path='/work' element={<Work/>} />
         <Route path='/contacts' element={<Contacts/>} />
+        <Route path='/about2' element={<About2/>} />
       </Routes>
     </BrowserRouter>
    </>
