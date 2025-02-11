@@ -1,0 +1,37 @@
+.categories{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+    gap: 50px;
+    h1{
+        font-size: 50px;
+        text-align: center;
+        
+
+    }
+    main{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+       .noActive{
+        color: #9A9CA5;
+        transition: 1s;
+        cursor: pointer;
+        text-align: center;
+        padding: 15px 0;
+        border: 1px solid white;
+        &:hover{
+            color: #FF5A30;
+            border: 1px solid #FF5A30;
+        }
+       }
+       .active{
+        color: #FF5A30;
+        transition: 1s;
+        cursor: pointer;
+        text-align: center;
+        padding: 15px 0;
+        border: 1px solid #FF5A30;
+        
+       }
+    }
+}
